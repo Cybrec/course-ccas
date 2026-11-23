@@ -7,5 +7,5 @@ Command-line tool that triages a web server's access logs (combined log format) 
 - Run the tests: `python3 -m unittest`
 - Scanner signatures are in `data/scanner-signatures.json`; refresh them with `python3 -m log_triage update-signatures`.
 - Alert settings come from `.env` (copied from `.env.example`). Never commit `.env`.
-- Deploy with `scripts/deploy.sh`: it runs the tests and publishes `main` to the `production` branch.
+- Deploy with `bash scripts/deploy.sh`: it runs the tests and publishes `main` to the `production` branch.
 - Keep changes focused, and add or update tests with every change.
