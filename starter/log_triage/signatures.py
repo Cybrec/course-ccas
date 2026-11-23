@@ -51,7 +51,7 @@ def load_signatures(path=DEFAULT_PATH):
         return validate(json.load(handle))[1]
 
 
-def fetch(url, timeout=15):
+def fetch(url, timeout=60):
     """Download a signature file over HTTPS."""
     if not url.startswith("https://"):
         raise SignatureError("signature updates must use https://")
