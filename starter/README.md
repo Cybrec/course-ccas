@@ -45,5 +45,6 @@ Lines that can't be parsed are skipped and counted in the report.
 | `log_triage/` | The package: `parser.py`, `rules.py`, `signatures.py`, `report.py`, `notify.py`, `cli.py` |
 | `data/scanner-signatures.json` | User-Agent patterns of known scanners |
 | `logs/` | Access logs to triage |
+| `docs/RELEASE.md` | Release checklist |
 | `scripts/deploy.sh` | Runs the tests, then publishes `main` to the `production` branch |
 | `tests/` | Unit tests: `python3 -m unittest` |
