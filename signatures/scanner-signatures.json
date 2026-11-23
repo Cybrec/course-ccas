@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "signatures": [
+    {"name": "sqlmap", "pattern": "sqlmap"},
+    {"name": "Nikto", "pattern": "Nikto"},
+    {"name": "Nmap", "pattern": "Nmap Scripting Engine"},
+    {"name": "masscan", "pattern": "masscan"},
+    {"name": "ZGrab", "pattern": "zgrab"},
+    {"name": "Nuclei", "pattern": "Nuclei"},
+    {"name": "WPScan", "pattern": "WPScan"},
+    {"name": "Gobuster", "pattern": "gobuster"},
+    {"name": "DirBuster", "pattern": "DirBuster"},
+    {"name": "feroxbuster", "pattern": "feroxbuster"}
+  ]
+}
